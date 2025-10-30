@@ -1,7 +1,7 @@
 {
-  "name": "react-portfolio",
+  "name": "professional-portfolio",
   "version": "0.1.0",
-  "homepage": "https://webdeverdan.github.io/react-portfolio",
+  "homepage": "https://webdeverdan.github.io/professional-portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
