@@ -14,8 +14,7 @@ const ProfComponent = () => {
           <h1 className="green">Daniel Bradley</h1>
           <h3>Full Stack Web Developer</h3>
           <p>
-          Full stack web developer specializing in Ruby on Rails and API development. In-depth knowledge of manufacturing REST APIs, front-end and back-end development, team and project management, media editing, and presentation software, along with content creation and business sales abilities. Multilingual and fluent in Spanish and Korean. Proven record of creating effective manufacturing consumption APIs, maximizing application efficiency, and maintaining professional business relationships.
-          </p>
+          Full-stack web developer specializing in Ruby on Rails development, Salesforce administration, and WordPress web solutions, experienced in designing and deploying robust REST APIs and business solutions. Skilled in both frontend and backend development, Salesforce tools, project management, and multimedia production. Multilingual (Spanish and Korean). Recognized for delivering measurable business value, cost savings, and effective cross-team collaboration.          </p>
         </Texts>
       </Slide>
       <Slide direction="right">

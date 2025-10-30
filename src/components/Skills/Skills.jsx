@@ -10,7 +10,7 @@ const Skills = () => {
       {/* </Slide> */}
       <br/>
       <Slide direction="left" id="tools">
-            <p>Ruby on Rails | Javascrip | JQuery | Node | React | HTML | CSS | Bootstrap | PostgreSQL | MySQL | Github | Bitbucket | Heroku | Digital Ocean</p>
+            <p>Ruby on Rails | Salesforce Development | Javascript | JQuery | Node | React | HTML | CSS | Bootstrap | PostgreSQL | MySQL | Github | Bitbucket | Heroku | Digital Ocean | Jira | Agile </p>
       </Slide>
         <div className="toolbox">
             <img src="/react-portfolio/images/icons8-ruby-48.png" class='codeIcon'></img>
