@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";

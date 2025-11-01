@@ -5,11 +5,17 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 
 let data = [
+  {
+        img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
+        disc : "Site Rebuild for Large Scale Solar Company",
+        name: "Company Site Rebuild",
+        url: "https://pinegaterenewables.com/"
+    },
     {
-      img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687650625/s7k6lf7itxf7pa37fxkj.png",
-      disc : "A Site for Maintaining your Lego Collection",
-      name: "The Lego Collector",
-      url: "https://the-lego-collector.herokuapp.com/login",
+        img : `${process.env.PUBLIC_URL}/images/time_zones.png`,
+        disc : "Interactive Time Zone Map Starter",
+        name: "Time Zone Map Starter",
+        url: "https://webdeverdan.github.io/timezone-display/",
     },
     {
         img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687647252/ox8joga58rzav9wt0bj8.png",
@@ -28,7 +34,8 @@ let data = [
         disc : "A Daily Planning App",
         name: "Daily Planner",
         url: "https://webdeverdan.github.io/Daily-Planner/",
-    }
+    },
+    
 ];
 
 var settings = {

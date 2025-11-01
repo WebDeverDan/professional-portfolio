@@ -30,7 +30,7 @@ const Container = styled.div`
     }
 
     p{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     
 `

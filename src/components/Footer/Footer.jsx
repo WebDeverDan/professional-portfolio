@@ -86,6 +86,7 @@ const Profile = styled.div`
     p {
       width: 60%;
       padding-top: 0.5rem;
+      font-size: 1.1rem;
       @media (max-width: 650px) {
         width: 100%;
       }
@@ -105,6 +106,7 @@ const Profile = styled.div`
       a {
         text-decoration: none;
         color: lightgray;
+        font-size: 1.1rem;
         :hover {
           color: orange;
         }

@@ -9,7 +9,8 @@ const Project = (props) => {
         <div className="disc">
             <h1>{name}</h1>
             <p>{disc}
-            <a href={url}>Deployed Project</a>
+            <br/>
+            <a className="deploymentText" href={url}> Click to View </a>
             </p>
         </div>
     </Container>
@@ -31,7 +32,7 @@ const Container = styled.div`
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 400ms ease-in-out;
+        transition: transform 400ms ease-in-out, filter 400ms ease-in-out;
     }
     .disc{
         position: absolute;
@@ -49,7 +50,7 @@ const Container = styled.div`
     
         p{
             width: 90%;
-            font-size: 0.8rem;
+            font-size: 0.95rem;
             a{
                 margin-left: 0.4rem;
                 color: red;
@@ -59,6 +60,7 @@ const Container = styled.div`
 
     :hover > img{
         transform: scale(1.3);
+        filter: brightness(0.6);
     }
 
     :hover > .disc{

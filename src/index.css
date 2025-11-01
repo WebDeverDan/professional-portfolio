@@ -30,6 +30,10 @@ body{
   border-radius: 10px;
 }
 
+.deploymentText {
+  color: #01be96;
+}
+
 .slick-list, .slick-slider, .slick-track{
   padding: 1.5rem 0;
 }

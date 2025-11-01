@@ -20,9 +20,9 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="/react-portfolio/images/Daniel_Bradley.8b243bd5.jpg"
+            src={`${process.env.PUBLIC_URL}/images/Daniel_Bradley.8b243bd5.jpg`}
             alt="profile"
-            class="profile-photo"
+            className="profile-photo"
           />
         </Profile>
       </Slide>
@@ -68,6 +68,7 @@ const Texts = styled.div`
   }
   p {
     font-weight: 300;
+    font-size: 1.1rem;
   }
 
   button {
