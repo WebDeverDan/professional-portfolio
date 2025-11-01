@@ -5,16 +5,22 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 
 let data = [
-  {
+    {
         img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
         disc : "Site Rebuild for Large Scale Solar Company",
         name: "Company Site Rebuild",
         url: "https://pinegaterenewables.com/"
     },
+     {
+        img : `${process.env.PUBLIC_URL}/images/giving_site.png`,
+        disc : "Charity Site for Large Scale Solar Company",
+        name: "Company Charity Site",
+        url: "https://pinegategiving.org/"
+    },
     {
         img : `${process.env.PUBLIC_URL}/images/time_zones.png`,
-        disc : "Interactive Time Zone Map Starter",
-        name: "Time Zone Map Starter",
+        disc : "Interactive Time Zone Map",
+        name: "Time Zone Map",
         url: "https://webdeverdan.github.io/timezone-display/",
     },
     {
