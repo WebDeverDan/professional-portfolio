@@ -82,6 +82,10 @@ const Texts = styled.div`
   }
 `;
 const Profile = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   img {
     width: 20rem;
     filter: drop-shadow(0 0 0.75rem #9ab0c9);
@@ -90,7 +94,6 @@ const Profile = styled.div`
     padding-top: 1em;
     margin-top: 3em;
     border-radius: 5px;
-    margin: auto;
 
     @media (max-width: 790px) {
       width: 20rem;
