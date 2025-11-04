@@ -19,15 +19,9 @@ let data = [
     },
     {
         img : `${process.env.PUBLIC_URL}/images/campsite-finder.png`,
-        disc : "Campsite Finder",
-        name: "Recreation.gov API Campsite Finder",
-        url: "https://campsite-availabilty-checker.onrender.com/",
-    },
-    {
-        img : `${process.env.PUBLIC_URL}/images/time_zones.png`,
-        disc : "Interactive Time Zone Map",
-        name: "Time Zone Map",
-        url: "https://webdeverdan.github.io/timezone-display/",
+        disc : "Recreation.gov API Campsite Finder",
+        name: "Campsite Availability Finder",
+        url: "https://webdeverdan.github.io/campsite-availabilty-checker/",
     },
     {
         img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687647252/ox8joga58rzav9wt0bj8.png",
@@ -35,7 +29,19 @@ let data = [
         name: "Baking Profit Calculator",
         url: "https://webdeverdan.github.io/baker-cost-profit-calculator/",
     },
+     {
+        img : `${process.env.PUBLIC_URL}/images/shouldIskate.png`,
+        disc : "Skate Decision Maker Based on Weather",
+        name: "Should I Skate Today?",
+        url: "https://webdeverdan.github.io/ShouldISkateToday/"
+    },
     {
+        img : `${process.env.PUBLIC_URL}/images/time_zones.png`,
+        disc : "Interactive Time Zone Map",
+        name: "Time Zone Map",
+        url: "https://webdeverdan.github.io/timezone-display/",
+    },
+        {
         img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687647359/cufzkrksnsaahkaralvd.png",
         disc : "Simple Web App for Checking Weather of a Location",
         name: "Weather App",
