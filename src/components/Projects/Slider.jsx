@@ -17,6 +17,12 @@ let data = [
         name: "Company Charity Site",
         url: "https://pinegategiving.org/"
     },
+      {
+        img : `${process.env.PUBLIC_URL}/images/rememberance.png`,
+        disc : "Cemetery/Columbarium CMS Platform (Email for Test Credentials)",
+        name: "Custom Developed CMS",
+        url: "https://remembrance-sites-st-eugene.onrender.com/",
+    },
     {
         img : `${process.env.PUBLIC_URL}/images/campsite-finder.png`,
         disc : "Recreation.gov API Campsite Finder",
@@ -40,12 +46,6 @@ let data = [
         disc : "Interactive Time Zone Map",
         name: "Time Zone Map",
         url: "https://webdeverdan.github.io/timezone-display/",
-    },
-        {
-        img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687647359/cufzkrksnsaahkaralvd.png",
-        disc : "Simple Web App for Checking Weather of a Location",
-        name: "Weather App",
-        url: "https://webdeverdan.github.io/Weather-Dashboard/",
     },
     {
         img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687650904/eupky20kmobti7fsf1u3.png",
@@ -80,9 +80,9 @@ var settings = {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 0,
           centerMode : false
         }
       },

@@ -8,22 +8,20 @@ import { Slide } from "react-awesome-reveal";
 const Services = () => {
   return (
     <Container id="service">
-      {/* <Slide direction="down"> */}
         <h1>My Services</h1>
-      {/* </Slide> */}
       <Cards>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
             title={"Web Development"}
-            disc={`Storyboarding | Wireframing | Development | Testing | Deployment | Scheduled - Maintanience | Scaling`}
+            disc={` Development | UAT Testing | Deployment | Maintanience | Scaling`}
           />
         </Slide>
         <Slide direction="left">
           <Card
             Icon={MdDesignServices}
             title={"Web Consultation"}
-            disc={`Project consultation covering scope of project, tools needed, costs, and maintainence strategies.`}
+            disc={`Project consultation covering scope of project, tools needed, development, costs, and maintainence strategies.`}
           />
         </Slide>
       </Cards>

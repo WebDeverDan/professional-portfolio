@@ -53,7 +53,7 @@ const Container = styled.div`
             font-size: 0.95rem;
             a{
                 margin-left: 0.4rem;
-                color: red;
+                color: white;
             }
         }
     }

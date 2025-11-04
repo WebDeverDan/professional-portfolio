@@ -7,13 +7,9 @@ const ProfComponent = () => {
     <Container id="home">
       <Slide direction="left">
         <Texts>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
           <h1 className="green">Daniel Bradley</h1>
           <h3>Full Stack Web Developer</h3>
-          <p>
+          <p className="description">
           Full-stack web developer specializing in Ruby on Rails development, Salesforce administration, and WordPress web solutions, experienced in designing and deploying robust REST APIs and business solutions. Skilled in both frontend and backend development, Salesforce tools, project management, and multimedia production. Multilingual (Spanish and Korean). Recognized for delivering measurable business value, cost savings, and effective cross-team collaboration.          </p>
         </Texts>
       </Slide>
@@ -93,7 +89,9 @@ const Profile = styled.div`
     padding: 1em;
     padding-top: 1em;
     margin-top: 3em;
-    
+    border-radius: 5px;
+    margin: auto;
+
     @media (max-width: 790px) {
       width: 20rem;
     }
@@ -103,7 +101,7 @@ const Profile = styled.div`
     }
 
     @media (max-width: 640px) {
-      width: 100%;
+      width: 75%;
     }
   }
   // :hover img {

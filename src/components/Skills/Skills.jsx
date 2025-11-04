@@ -33,7 +33,7 @@ const Skills = () => {
             <SiHeroku className='codeIcon heroku' title="Heroku" />
         </IconGrid>
         <Slide direction="right" id="tools">
-            <p>For additional tools and skills, please request my resume via the email below</p>
+            <p>For additional tools and skills, please request my resume via the email below.</p>
       </Slide>
     </Container>
   );
@@ -62,13 +62,14 @@ const IconGrid = styled.div`
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem 0;
+  justify-items: center;
+  align-items: center;
 
   .codeIcon {
     width: 64px;
     height: 64px;
     transition: all 300ms ease-in-out;
     cursor: pointer;
-    justify-self: center;
 
     &:hover {
       transform: scale(1.2);

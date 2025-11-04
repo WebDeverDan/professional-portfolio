@@ -6,9 +6,9 @@ import { Zoom } from 'react-awesome-reveal';
 const Projects = () => {
   return (
     <Container id='project'>
-            <h1>Recent Projects</h1>
+            <h1>Projects and Work</h1>
         <Zoom>
-            <h3>Personal and professional projects from 2021 to present.</h3>
+            <h3>Personal and Professional Projects</h3>
         </Zoom>
         <Slide>
             <SliderComp/>
