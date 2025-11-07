@@ -11,23 +11,23 @@ let data = [
         name: "Company Site Rebuild",
         url: "https://pinegaterenewables.com/"
     },
-     {
-        img : `${process.env.PUBLIC_URL}/images/giving_site.png`,
-        disc : "Charity Site for Large Scale Solar Company",
-        name: "Company Charity Site",
-        url: "https://pinegategiving.org/"
-    },
-      {
+    {
         img : `${process.env.PUBLIC_URL}/images/rememberance.png`,
-        disc : "Cemetery/Columbarium CMS Platform (Email for Test Credentials)",
+        disc : "Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
         name: "Custom Developed CMS",
         url: "https://remembrance-sites-st-eugene.onrender.com/",
     },
     {
         img : `${process.env.PUBLIC_URL}/images/campsite-finder.png`,
-        disc : "Recreation.gov API Campsite Finder",
-        name: "Campsite Availability Finder",
+        disc : "Recreation.gov API Campsite Checker",
+        name: "Campsite Availability Checker",
         url: "https://webdeverdan.github.io/campsite-availabilty-checker/",
+    },
+    {
+        img : `${process.env.PUBLIC_URL}/images/houndin-around.png`,
+        disc : "AI Assisted Rockhounding Spot Finder",
+        name: "Houndin' Around",
+        url: "https://houndin-around.onrender.com/",
     },
     {
         img : "https://res.cloudinary.com/app-photo-storage/image/upload/v1687647252/ox8joga58rzav9wt0bj8.png",
