@@ -12,7 +12,7 @@ const Skills = () => {
       {/* </Slide> */}
       <br/>
       <Slide direction="left" id="tools">
-            <p>Ruby | Rails | Salesforce | Javascript | JQuery | Node | React | HTML | CSS | Bootstrap | CLAUD | PostgreSQL | MySQL | MongoDB | Github | Bitbucket | Heroku | Digital Ocean | Render |Jira | Agile </p>
+            <p>Ruby | Rails | Salesforce | Javascript | JQuery | Node | React | HTML | CSS | Bootstrap | Claud | PostgreSQL | MySQL | MongoDB | Github | Bitbucket | Heroku | Digital Ocean | Render |Jira | Agile </p>
       </Slide>
         <IconGrid>
             <SiRuby className='codeIcon ruby' title="Ruby" />
