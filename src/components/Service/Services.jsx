@@ -15,6 +15,7 @@ const Services = () => {
             Icon={FiCodesandbox}
             title={"Web Development"}
             disc={` Development | UAT Testing | Deployment | Maintanience | Scaling`}
+           
           />
         </Slide>
         <Slide direction="left">

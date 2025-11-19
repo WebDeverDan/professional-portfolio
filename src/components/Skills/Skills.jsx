@@ -7,12 +7,11 @@ import { SiRuby, SiRubyonrails, SiJavascript, SiJquery, SiMongodb, SiPostgresql,
 const Skills = () => {
   return (
     <Container id="skills">
-      {/* <Slide direction="down"> */}
         <h1>My Tools</h1>
-      {/* </Slide> */}
       <br/>
       <Slide direction="left" id="tools">
-            <p>Ruby | Rails | Salesforce | Javascript | JQuery | Node | React | HTML | CSS | Bootstrap | Claud | PostgreSQL | MySQL | MongoDB | Github | Bitbucket | Heroku | Digital Ocean | Render | Jira | Agile </p>
+            <p>Some of the tools that I use, but are not limited to:</p>
+            <p>Ruby | Rails | Salesforce | Javascript | JQuery | Node | React | HTML | CSS | Bootstrap | Claud | PostgreSQL | MySQL | MongoDB | Github | Bitbucket | Heroku | Digital Ocean | Render | Jira </p>
       </Slide>
         <IconGrid>
             <SiRuby className='codeIcon ruby' title="Ruby" />
