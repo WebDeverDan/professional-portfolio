@@ -6,16 +6,16 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
-        disc : "Site Rebuild for Large Scale Solar Company",
-        name: "Company Site Rebuild",
-        url: "https://pinegaterenewables.com/"
-    },
-    {
         img : `${process.env.PUBLIC_URL}/images/rememberance.png`,
         disc : "Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
         name: "Custom Developed CMS",
         url: "https://remembrance-sites-st-eugene.onrender.com/",
+    },
+    {
+        img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
+        disc : "Site Rebuild for Large Scale Solar Company",
+        name: "Company Site Rebuild",
+        url: "https://pinegaterenewables.com/"
     },
     {
         img : `${process.env.PUBLIC_URL}/images/campsite-finder.png`,
