@@ -7,8 +7,8 @@ import styled from 'styled-components';
 let data = [
     {
         img : `${process.env.PUBLIC_URL}/images/rememberance.png`,
-        disc : "Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
-        name: "Custom Developed CMS",
+        disc : "Prototype for Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
+        name: "Custom Developed CMS Prototype",
         url: "https://remembrance-sites-st-eugene.onrender.com/",
     },
     {
