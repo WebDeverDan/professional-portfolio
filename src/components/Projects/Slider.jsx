@@ -17,6 +17,7 @@ let data = [
     {
         img : `${process.env.PUBLIC_URL}/images/api_dashboard.png`,
         disc : "Backend for Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials). Scalable for numerous frontends (organization), offers remote access to data (organization settings, security, and records), and provides insights into system uptime/status and database analytics. Email to request test admin credentials",
+        name: "Custom-Developed CMS Master Portal and API (API Backend)",
         core_technologies: ["Ruby", "Rails", "Hotwire", "Stimulus", "Render - hosting"],
         text: "Click to Explore"
     },
