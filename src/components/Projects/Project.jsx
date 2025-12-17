@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Project = (props) => {
-    const { img, disc, name, url } = props.item;
+    const { img, name, } = props.item;
     const { onClick } = props;
   return (
     <Container className='project' onClick={onClick}>
