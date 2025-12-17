@@ -10,7 +10,7 @@ const ProfComponent = () => {
           <h1 className="green">Daniel Bradley</h1>
           <h3>Full Stack Web Developer</h3>
           <p className="description">
-          Full-stack web developer specializing in Ruby on Rails development, Salesforce administration, and WordPress web solutions.Experienced in designing and deploying robust REST APIs and business solutions. Skilled in both frontend and backend development, Salesforce tools, project management, and multimedia production. Multilingual (Spanish and Korean). Recognized for delivering measurable business value, quick-action on delivery, and effective cross-team collaboration.          </p>
+          Full-stack web developer specializing in Ruby on Rails and React application development, Salesforce administration, and WordPress web solutions.Experienced in designing and deploying robust REST APIs and business solutions. Skilled in both frontend and backend development, Salesforce tools, project management, and multimedia production. Multilingual (Spanish and Korean). Recognized for delivering measurable business value, quick-action on delivery, and effective cross-team collaboration.          </p>
         </Texts>
       </Slide>
       <Slide direction="right">

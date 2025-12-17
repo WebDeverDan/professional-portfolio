@@ -3,14 +3,20 @@ import styled from 'styled-components';
 
 const Project = (props) => {
     const { img, disc, name, url } = props.item;
+    const { onClick } = props;
   return (
-    <Container className='project'>
+    <Container className='project' onClick={onClick}>
         <img src={img} alt="project" />
         <div className="disc">
             <h1>{name}</h1>
-            <p>{disc}
+            <p>
             <br/>
-            <a className="deploymentText" href={url}> Click to View </a>
+            {/* <a
+              className="deploymentText"
+              href={url}
+              onClick={(e) => e.stopPropagation()}
+            > Click to View </a> */}
+            <p>Click to Explore</p>
             </p>
         </div>
     </Container>

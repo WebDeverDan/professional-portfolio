@@ -34,15 +34,7 @@ const Container = styled.div`
         color: #9ab0c9;
     }
 
-    p{
-        width: 28rem;
-        margin: 0 auto;
-        padding: 1rem 0;
-        font-size: 0.9rem;
-        @media(max-width : 500px){
-            width: 90%;
-        }
-    }
+    
     
 `
 
