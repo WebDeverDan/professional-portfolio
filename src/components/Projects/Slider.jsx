@@ -10,7 +10,7 @@ let data = [
         img : `${process.env.PUBLIC_URL}/images/remembrance_settings.png`,
         disc : "Frontend for Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
         name: "Custom-Developed CMS (Frontend)",
-        url: "https://st-eugenes.remembrance-sites.com/",
+        url: "https://www.st-eugenes.remembrance-sites.com/",
         core_technologies: ["React", "Vite"],
         text: "Click to Explore"
     },
@@ -21,15 +21,7 @@ let data = [
         core_technologies: ["Ruby", "Rails", "Hotwire", "Stimulus", "Render - hosting"],
         text: "Click to Explore"
     },
-    {
-        img : `${process.env.PUBLIC_URL}/images/rememberance.png`,
-        disc : "Prototype for Cemetery/Columbarium CMS Platform (Email for Test Admin Credentials)",
-        name: "Custom Developed CMS (Prototype)",
-        url: "https://remembrance-sites-st-eugene.onrender.com/",
-        core_technologies: ["Ruby", "Rails", "PostgreSQL", "Cloudinary", "Render - hosting"],
-        text: "Click to Explore"
-    },
-    {
+     {
         img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
         disc : "Site Rebuild for Large Scale Solar Company",
         name: "Company Site Rebuild",
