@@ -41,7 +41,7 @@ let data = [
         img : `${process.env.PUBLIC_URL}/images/houndin-around.png`,
         disc : "AI Assisted Rockhounding Spot Finder",
         name: "Houndin' Around",
-        url: "https://houndin-around.onrender.com/",
+        url: "https://houndin-around.vercel.app/",
         core_technologies: ["React", "Node.js", "Perplexity API", "Google Maps API","Render - hosting"],
         text: "Click to Explore"
     },
