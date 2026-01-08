@@ -33,7 +33,7 @@ let data = [
         img : `${process.env.PUBLIC_URL}/images/campsite-finder.png`,
         disc : "Recreation.gov API Campsite Checker",
         name: "Campsite Availability Checker",
-        url: "https://webdeverdan.github.io/campsite-availabilty-checker/",
+        url: "https://campsite-availabilty-checker.vercel.app/",
         core_technologies: ["React", "Recreation.gov API"],
         text: "Click to Explore"
     },
