@@ -22,6 +22,23 @@ let data = [
         text: "Click to Explore"
     },
      {
+        img : `${process.env.PUBLIC_URL}/images/ProtocolPM.png`,
+        disc : "Project Management Tool - template based, and collaborative.",
+        name: "Protocol PM - Project Management",
+        url: "https://protocol-pm.onrender.com/",
+        core_technologies: ["React", "Tailwind CSS", "Postgres", "Render - hosting"],
+        text: "Click to Explore"
+    },
+    {
+        img : `${process.env.PUBLIC_URL}/images/ProtocolPMWedding.png`,
+        disc : "Wedding Planning Tool - template based, and collaborative.",
+        name: "Protocol PM - Wedding Planner",
+        url: "https://wedding-planner-jcvj.onrender.com/",
+        core_technologies: ["React", "Tailwind CSS", "Postgres", "Render - hosting"],
+        text: "Click to Explore"
+    },
+
+     {
         img : `${process.env.PUBLIC_URL}/images/pgr_site.png`,
         disc : "Site Rebuild for Large Scale Solar Company",
         name: "Company Site Rebuild",
